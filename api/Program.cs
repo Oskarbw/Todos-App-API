@@ -89,7 +89,7 @@ namespace api
 
             app.MapControllers();
 
-            app.Run();
+            app.RunAsync();
         }
     }
 }
