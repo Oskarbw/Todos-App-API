@@ -87,7 +87,6 @@ namespace api
             app.UseAuthentication();
             app.UseAuthorization();
 
-
             app.MapControllers();
 
             app.Run();
